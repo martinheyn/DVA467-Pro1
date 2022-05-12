@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
   <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_0EZN4Mn9EeySK9XVvZr86w" guid="_0EZN4Mn9EeySK9XVvZr86w"/>
-  <org.eclipse.epf.uma:MethodPlugin xmi:id="_0EWKkMn9EeySK9XVvZr86w" name="Sensor verification" guid="_0EWKkMn9EeySK9XVvZr86w" briefDescription="Methods to demonstrate the correct functional performance, timing, accuracy, and robustness of the sensors for their intended use" authors="Hans-Martin Heyn">
+  <org.eclipse.epf.uma:MethodPlugin xmi:id="_0EWKkMn9EeySK9XVvZr86w" name="Sensor verification" guid="_0EWKkMn9EeySK9XVvZr86w" briefDescription="Methods to demonstrate the correct functional performance, timing, accuracy, and robustness of the sensors for their intended use" authors="Hans-Martin Heyn" changeDate="2022-05-12T15:41:40.728+0200">
     <methodElementProperty xmi:id="_0EZN4sn9EeySK9XVvZr86w" name="plugin_synFree" value="true"/>
+    <methodElementProperty xmi:id="_8XsVANH5EeyPVOGx4eQ6lQ" name="me_edited" value="true"/>
     <methodPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_0EWKkcn9EeySK9XVvZr86w" name="Content" guid="_0EWKkcn9EeySK9XVvZr86w">
       <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_0EWKksn9EeySK9XVvZr86w" name="Categories" guid="_0EWKksn9EeySK9XVvZr86w">
         <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_0EWKk8n9EeySK9XVvZr86w" name="Domains" guid="_0EWKk8n9EeySK9XVvZr86w"/>
         <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_0EWKlMn9EeySK9XVvZr86w" name="Disciplines" guid="_0EWKlMn9EeySK9XVvZr86w"/>
         <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_0EWKlcn9EeySK9XVvZr86w" name="RoleSets" guid="_0EWKlcn9EeySK9XVvZr86w">
-          <contentElements xsi:type="org.eclipse.epf.uma:RoleSet" xmi:id="_lcTocM-2EeylfrAata9AGw" name="Test Engineers" guid="_lcTocM-2EeylfrAata9AGw" briefDescription="Conduct testing" roles="_4nJ0EM-zEeylfrAata9AGw _ic-OwMn-EeySK9XVvZr86w">
+          <contentElements xsi:type="org.eclipse.epf.uma:RoleSet" xmi:id="_lcTocM-2EeylfrAata9AGw" name="Test Engineers" guid="_lcTocM-2EeylfrAata9AGw" briefDescription="Conduct testing">
             <methodElementProperty xmi:id="_P3YR8M-3EeylfrAata9AGw" name="me_edited" value="true"/>
           </contentElements>
         </childPackages>
@@ -26,157 +27,157 @@
         </childPackages>
       </childPackages>
       <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_0EWKnMn9EeySK9XVvZr86w" name="CoreContent" guid="_0EWKnMn9EeySK9XVvZr86w">
-        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_duiJsMn-EeySK9XVvZr86w" name="Requirements based test" guid="_duiJsMn-EeySK9XVvZr86w" briefDescription="Tests fulfillment of requirements">
-          <methodElementProperty xmi:id="_duiJscn-EeySK9XVvZr86w" name="pkg_loadCheck" value="true"/>
-          <methodElementProperty xmi:id="_hwB-UMoAEeySK9XVvZr86w" name="me_edited" value="true"/>
-          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_ic-OwMn-EeySK9XVvZr86w" name="Test Engineer" guid="_ic-OwMn-EeySK9XVvZr86w" briefDescription="An engineer who performs testing operations">
-            <methodElementProperty xmi:id="_hxKmwMoAEeySK9XVvZr86w" name="me_edited" value="true"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_aN6zUNH5EeyPVOGx4eQ6lQ" name="In the loop testing (e.g. SIL HIL MIL) on selected SOTIF relevant use cases and scenarios" guid="_aN6zUNH5EeyPVOGx4eQ6lQ">
+          <methodElementProperty xmi:id="_aOy9ENH5EeyPVOGx4eQ6lQ" name="pkg_loadCheck" value="true"/>
+          <methodElementProperty xmi:id="_aOy9EdH5EeyPVOGx4eQ6lQ" name="me_edited" value="true"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_aN6zUtH5EeyPVOGx4eQ6lQ" name="Test Engineer" guid="_aN6zUtH5EeyPVOGx4eQ6lQ" briefDescription="An engineer who performs testing operations">
+            <methodElementProperty xmi:id="_aOy9EtH5EeyPVOGx4eQ6lQ" name="me_edited" value="true"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_t3ACEMn-EeySK9XVvZr86w" name="Create test cases from requirements" guid="_t3ACEMn-EeySK9XVvZr86w" performedBy="_4VYsgMn-EeySK9XVvZr86w _ic-OwMn-EeySK9XVvZr86w" output="_c6qAQMn_EeySK9XVvZr86w">
-            <methodElementProperty xmi:id="_hwWucMoAEeySK9XVvZr86w" name="me_edited" value="true"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_aN7aYNH5EeyPVOGx4eQ6lQ" name="Perform test set" guid="_aN7aYNH5EeyPVOGx4eQ6lQ" performedBy="_aN6zUtH5EeyPVOGx4eQ6lQ" output="_aN6zUdH5EeyPVOGx4eQ6lQ">
+            <methodElementProperty xmi:id="_aOy9E9H5EeyPVOGx4eQ6lQ" name="me_edited" value="true"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_yUsVYMn-EeySK9XVvZr86w" name="Run tests" guid="_yUsVYMn-EeySK9XVvZr86w" performedBy="_ic-OwMn-EeySK9XVvZr86w" output="_kh6FgMn_EeySK9XVvZr86w" optionalInput="_c6qAQMn_EeySK9XVvZr86w">
-            <methodElementProperty xmi:id="_hwMWYMoAEeySK9XVvZr86w" name="me_edited" value="true"/>
-          </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_zXFmgMn-EeySK9XVvZr86w" name="Create test report" guid="_zXFmgMn-EeySK9XVvZr86w" presentationName="New Task" performedBy="_ic-OwMn-EeySK9XVvZr86w" mandatoryInput="_kh6FgMn_EeySK9XVvZr86w" output="_bKqpUMn_EeySK9XVvZr86w">
-            <methodElementProperty xmi:id="_hwGPwMoAEeySK9XVvZr86w" name="me_edited" value="true"/>
-          </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_4VYsgMn-EeySK9XVvZr86w" name="Product Owner" guid="_4VYsgMn-EeySK9XVvZr86w" briefDescription="Fancy word for requirement engineer">
-            <methodElementProperty xmi:id="_hwkw4MoAEeySK9XVvZr86w" name="me_edited" value="true"/>
-          </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Outcome" xmi:id="_bKqpUMn_EeySK9XVvZr86w" name="Test report" guid="_bKqpUMn_EeySK9XVvZr86w">
-            <methodElementProperty xmi:id="_hwgfcMoAEeySK9XVvZr86w" name="me_edited" value="true"/>
-          </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_c6qAQMn_EeySK9XVvZr86w" name="Test cases" guid="_c6qAQMn_EeySK9XVvZr86w" briefDescription="Test cases based on defined requirements">
-            <methodElementProperty xmi:id="_hwbm8MoAEeySK9XVvZr86w" name="me_edited" value="true"/>
-          </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_kh6FgMn_EeySK9XVvZr86w" name="Preliminary test results" guid="_kh6FgMn_EeySK9XVvZr86w">
-            <methodElementProperty xmi:id="_hwRO4MoAEeySK9XVvZr86w" name="me_edited" value="true"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Outcome" xmi:id="_aN6zUdH5EeyPVOGx4eQ6lQ" name="HIL SIL MIL Report" guid="_aN6zUdH5EeyPVOGx4eQ6lQ">
+            <methodElementProperty xmi:id="_aOy9FNH5EeyPVOGx4eQ6lQ" name="me_edited" value="true"/>
           </contentElements>
         </childPackages>
-        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_vg7-4Mn_EeySK9XVvZr86w" name="Verification of standalone sensor characteristics" guid="_vg7-4Mn_EeySK9XVvZr86w" briefDescription="Verification of standalone sensor characteristics (e.g. range, precision, resolution, timing constraints, bandwidth, signal-to-noise ratio)">
-          <methodElementProperty xmi:id="_vg8l8Mn_EeySK9XVvZr86w" name="pkg_loadCheck" value="true"/>
-          <methodElementProperty xmi:id="_hv8ewMoAEeySK9XVvZr86w" name="me_edited" value="true"/>
-          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_1dk8cMn_EeySK9XVvZr86w" name="Product Owner" guid="_1dk8cMn_EeySK9XVvZr86w" briefDescription="Fancy word for requirement engineer"/>
-          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_3d1kAMn_EeySK9XVvZr86w" name="Check characteristics of hardware component" guid="_3d1kAMn_EeySK9XVvZr86w" performedBy="_4S8AAMn_EeySK9XVvZr86w _1dk8cMn_EeySK9XVvZr86w" output="_CCAGUMoAEeySK9XVvZr86w">
-            <methodElementProperty xmi:id="_hvsnIMoAEeySK9XVvZr86w" name="me_edited" value="true"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_aN7aYdH5EeyPVOGx4eQ6lQ" name="Injection of system inputs that trigger the potentially hazardous behaviour" guid="_aN7aYdH5EeyPVOGx4eQ6lQ" briefDescription="In some cases, it is possible to emulate a potentially hazardous behaviour of the sensor by means of error injection&#xD;&#xA;at the simulation level. A rationale as to why the error models are able to represent the tested phenomena is provided. Outcomes of those simulations can be combined with results of the analysis of triggering events.">
+          <methodElementProperty xmi:id="_aOy9FdH5EeyPVOGx4eQ6lQ" name="pkg_loadCheck" value="true"/>
+          <methodElementProperty xmi:id="_aOy9FtH5EeyPVOGx4eQ6lQ" name="me_edited" value="true"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_aN7aY9H5EeyPVOGx4eQ6lQ" name="Test Engineer" guid="_aN7aY9H5EeyPVOGx4eQ6lQ" briefDescription="An engineer who performs testing operations">
+            <methodElementProperty xmi:id="_aOy9F9H5EeyPVOGx4eQ6lQ" name="me_edited" value="true"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_4S8AAMn_EeySK9XVvZr86w" name="Component Owner" guid="_4S8AAMn_EeySK9XVvZr86w" briefDescription="Manages the work on the hardware component">
-            <methodElementProperty xmi:id="_hv3mQMoAEeySK9XVvZr86w" name="me_edited" value="true"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_aN7aYtH5EeyPVOGx4eQ6lQ" name="Create test report" guid="_aN7aYtH5EeyPVOGx4eQ6lQ" presentationName="New Task" performedBy="_aN8BctH5EeyPVOGx4eQ6lQ" mandatoryInput="_aN8BcdH5EeyPVOGx4eQ6lQ" output="_aN7aaNH5EeyPVOGx4eQ6lQ">
+            <methodElementProperty xmi:id="_aOzkINH5EeyPVOGx4eQ6lQ" name="me_edited" value="true"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Outcome" xmi:id="_CCAGUMoAEeySK9XVvZr86w" name="Hardware verification report" guid="_CCAGUMoAEeySK9XVvZr86w">
-            <methodElementProperty xmi:id="_hvxfoMoAEeySK9XVvZr86w" name="me_edited" value="true"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_aN7aZ9H5EeyPVOGx4eQ6lQ" name="Run tests" guid="_aN7aZ9H5EeyPVOGx4eQ6lQ" performedBy="_aN8BctH5EeyPVOGx4eQ6lQ" output="_aN8BcdH5EeyPVOGx4eQ6lQ" optionalInput="_aN7aZNH5EeyPVOGx4eQ6lQ">
+            <methodElementProperty xmi:id="_aOzkIdH5EeyPVOGx4eQ6lQ" name="me_edited" value="true"/>
           </contentElements>
-        </childPackages>
-        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_V1S-sM-zEeylfrAata9AGw" name="Injection of system inputs that trigger the potentially hazardous behaviour" guid="_V1S-sM-zEeylfrAata9AGw" briefDescription="In some cases, it is possible to emulate a potentially hazardous behaviour of the sensor by means of error injection&#xD;&#xA;at the simulation level. A rationale as to why the error models are able to represent the tested phenomena is provided. Outcomes of those simulations can be combined with results of the analysis of triggering events.">
-          <methodElementProperty xmi:id="_V1UM0M-zEeylfrAata9AGw" name="pkg_loadCheck" value="true"/>
-          <methodElementProperty xmi:id="_zgus0M-zEeylfrAata9AGw" name="me_edited" value="true"/>
-          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_4nJ0EM-zEeylfrAata9AGw" name="Test Engineer" guid="_4nJ0EM-zEeylfrAata9AGw" briefDescription="An engineer who performs testing operations">
-            <methodElementProperty xmi:id="_4pBcUM-zEeylfrAata9AGw" name="me_edited" value="true"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_aN7aZtH5EeyPVOGx4eQ6lQ" name="Define injection signals" guid="_aN7aZtH5EeyPVOGx4eQ6lQ" briefDescription="Defines the injection signals necessary to trigger dangerous situations." performedBy="_aN7aY9H5EeyPVOGx4eQ6lQ" output="_aN7aZNH5EeyPVOGx4eQ6lQ">
+            <methodElementProperty xmi:id="_aOzkItH5EeyPVOGx4eQ6lQ" name="me_edited" value="true"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_O31n4M-0EeylfrAata9AGw" name="Create test report" guid="_O31n4M-0EeylfrAata9AGw" presentationName="New Task" performedBy="_ic-OwMn-EeySK9XVvZr86w" mandatoryInput="_kh6FgMn_EeySK9XVvZr86w" output="_kQ4pEM-0EeylfrAata9AGw">
-            <methodElementProperty xmi:id="_O56EcM-0EeylfrAata9AGw" name="me_edited" value="true"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Outcome" xmi:id="_aN7aaNH5EeyPVOGx4eQ6lQ" name="Injection Test Report" guid="_aN7aaNH5EeyPVOGx4eQ6lQ">
+            <methodElementProperty xmi:id="_aOzkI9H5EeyPVOGx4eQ6lQ" name="me_edited" value="true"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_Pkt8AM-0EeylfrAata9AGw" name="Run tests" guid="_Pkt8AM-0EeylfrAata9AGw" performedBy="_ic-OwMn-EeySK9XVvZr86w" output="_kh6FgMn_EeySK9XVvZr86w" optionalInput="_nwZc4M-0EeylfrAata9AGw">
-            <methodElementProperty xmi:id="_Pmrq4M-0EeylfrAata9AGw" name="me_edited" value="true"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_aN7aZNH5EeyPVOGx4eQ6lQ" name="Injection signal specification" guid="_aN7aZNH5EeyPVOGx4eQ6lQ" briefDescription="specifies the necessary injection signal">
+            <methodElementProperty xmi:id="_aOzkJNH5EeyPVOGx4eQ6lQ" name="me_edited" value="true"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_QBCEkM-0EeylfrAata9AGw" name="Define injection signals" guid="_QBCEkM-0EeylfrAata9AGw" briefDescription="Defines the injection signals necessary to trigger dangerous situations." performedBy="_4nJ0EM-zEeylfrAata9AGw" output="_nwZc4M-0EeylfrAata9AGw">
-            <methodElementProperty xmi:id="_P4aMsM-3EeylfrAata9AGw" name="me_edited" value="true"/>
-          </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Outcome" xmi:id="_kQ4pEM-0EeylfrAata9AGw" name="Injection Test Report" guid="_kQ4pEM-0EeylfrAata9AGw">
-            <methodElementProperty xmi:id="_P4j9sM-3EeylfrAata9AGw" name="me_edited" value="true"/>
-          </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_nwZc4M-0EeylfrAata9AGw" name="Injection signal specification" guid="_nwZc4M-0EeylfrAata9AGw" briefDescription="specifies the necessary injection signal">
-            <methodElementProperty xmi:id="_P4fsQM-3EeylfrAata9AGw" name="me_edited" value="true"/>
-          </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_tOGbsM-0EeylfrAata9AGw" name="Preliminary test results" guid="_tOGbsM-0EeylfrAata9AGw">
-            <methodElementProperty xmi:id="_tQPwwM-0EeylfrAata9AGw" name="me_edited" value="true"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_aN7aZdH5EeyPVOGx4eQ6lQ" name="Preliminary test results" guid="_aN7aZdH5EeyPVOGx4eQ6lQ">
+            <methodElementProperty xmi:id="_aOzkJdH5EeyPVOGx4eQ6lQ" name="me_edited" value="true"/>
           </contentElements>
         </childPackages>
-        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_FtTVgM-1EeylfrAata9AGw" name="In the loop testing (e.g. SIL HIL MIL) on selected SOTIF relevant use cases and scenarios" guid="_FtTVgM-1EeylfrAata9AGw">
-          <methodElementProperty xmi:id="_FtTVgc-1EeylfrAata9AGw" name="pkg_loadCheck" value="true"/>
-          <methodElementProperty xmi:id="_P3zvwM-3EeylfrAata9AGw" name="me_edited" value="true"/>
-          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_LsnS8M-9EeylfrAata9AGw" name="Test Engineer" guid="_LsnS8M-9EeylfrAata9AGw" briefDescription="An engineer who performs testing operations">
-            <methodElementProperty xmi:id="_LvTakM-9EeylfrAata9AGw" name="me_edited" value="true"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_aN7aadH5EeyPVOGx4eQ6lQ" name="Requirements based test" guid="_aN7aadH5EeyPVOGx4eQ6lQ" briefDescription="Tests fulfillment of requirements">
+          <methodElementProperty xmi:id="_aOzkJtH5EeyPVOGx4eQ6lQ" name="pkg_loadCheck" value="true"/>
+          <methodElementProperty xmi:id="_aOzkJ9H5EeyPVOGx4eQ6lQ" name="me_edited" value="true"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_aN8BctH5EeyPVOGx4eQ6lQ" name="Test Engineer" guid="_aN8BctH5EeyPVOGx4eQ6lQ" briefDescription="An engineer who performs testing operations">
+            <methodElementProperty xmi:id="_aOzkKNH5EeyPVOGx4eQ6lQ" name="me_edited" value="true"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_MQpNEM-9EeylfrAata9AGw" name="Perform test set" guid="_MQpNEM-9EeylfrAata9AGw" performedBy="_LsnS8M-9EeylfrAata9AGw" output="_PwjCcM-9EeylfrAata9AGw">
-            <methodElementProperty xmi:id="_W4lcIM-9EeylfrAata9AGw" name="me_edited" value="true"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_aN7abNH5EeyPVOGx4eQ6lQ" name="Create test cases from requirements" guid="_aN7abNH5EeyPVOGx4eQ6lQ" performedBy="_aN7aatH5EeyPVOGx4eQ6lQ _aN8BctH5EeyPVOGx4eQ6lQ" output="_aN7aa9H5EeyPVOGx4eQ6lQ">
+            <methodElementProperty xmi:id="_aOzkKdH5EeyPVOGx4eQ6lQ" name="me_edited" value="true"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Outcome" xmi:id="_PwjCcM-9EeylfrAata9AGw" name="HIL SIL MIL Report" guid="_PwjCcM-9EeylfrAata9AGw">
-            <methodElementProperty xmi:id="_W4wbQM-9EeylfrAata9AGw" name="me_edited" value="true"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_aN7abdH5EeyPVOGx4eQ6lQ" name="Run tests" guid="_aN7abdH5EeyPVOGx4eQ6lQ" performedBy="_aN8BctH5EeyPVOGx4eQ6lQ" output="_aN8BcdH5EeyPVOGx4eQ6lQ" optionalInput="_aN7aa9H5EeyPVOGx4eQ6lQ">
+            <methodElementProperty xmi:id="_aOzkKtH5EeyPVOGx4eQ6lQ" name="me_edited" value="true"/>
           </contentElements>
-        </childPackages>
-        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_JXoSMM-1EeylfrAata9AGw" name="Vehicle level testing on selected SOTIF relevant use cases and scenarios" guid="_JXoSMM-1EeylfrAata9AGw">
-          <methodElementProperty xmi:id="_JXo5QM-1EeylfrAata9AGw" name="pkg_loadCheck" value="true"/>
-          <methodElementProperty xmi:id="_P3u3QM-3EeylfrAata9AGw" name="me_edited" value="true"/>
-          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_aHmLQM-8EeylfrAata9AGw" name="Test Driver" guid="_aHmLQM-8EeylfrAata9AGw" briefDescription="Crazy stunt drivers that perform all kinds of dangerous maneauvers.">
-            <methodElementProperty xmi:id="_W6CNoM-9EeylfrAata9AGw" name="me_edited" value="true"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_aN8Bc9H5EeyPVOGx4eQ6lQ" name="Create test report" guid="_aN8Bc9H5EeyPVOGx4eQ6lQ" presentationName="New Task" performedBy="_aN8BctH5EeyPVOGx4eQ6lQ" mandatoryInput="_aN8BcdH5EeyPVOGx4eQ6lQ" output="_aN8BcNH5EeyPVOGx4eQ6lQ">
+            <methodElementProperty xmi:id="_aOzkK9H5EeyPVOGx4eQ6lQ" name="me_edited" value="true"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_e7xr8M-8EeylfrAata9AGw" name="Test Engineer" guid="_e7xr8M-8EeylfrAata9AGw" briefDescription="An engineer who performs testing operations">
-            <methodElementProperty xmi:id="_e-OjAM-8EeylfrAata9AGw" name="me_edited" value="true"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_aN7aatH5EeyPVOGx4eQ6lQ" name="Product Owner" guid="_aN7aatH5EeyPVOGx4eQ6lQ" briefDescription="Fancy word for requirement engineer">
+            <methodElementProperty xmi:id="_aOzkLNH5EeyPVOGx4eQ6lQ" name="me_edited" value="true"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_gnSykM-8EeylfrAata9AGw" name="Test description" guid="_gnSykM-8EeylfrAata9AGw" performedBy="_e7xr8M-8EeylfrAata9AGw" output="_mbIZcM-8EeylfrAata9AGw">
-            <methodElementProperty xmi:id="_W5T04M-9EeylfrAata9AGw" name="me_edited" value="true"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Outcome" xmi:id="_aN8BcNH5EeyPVOGx4eQ6lQ" name="Test report" guid="_aN8BcNH5EeyPVOGx4eQ6lQ">
+            <methodElementProperty xmi:id="_aOzkLdH5EeyPVOGx4eQ6lQ" name="me_edited" value="true"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_j3cUsM-8EeylfrAata9AGw" name="Perform Test Drives" guid="_j3cUsM-8EeylfrAata9AGw" performedBy="_aHmLQM-8EeylfrAata9AGw" mandatoryInput="_mbIZcM-8EeylfrAata9AGw" output="_oyYksM-8EeylfrAata9AGw">
-            <methodElementProperty xmi:id="_W5O8YM-9EeylfrAata9AGw" name="me_edited" value="true"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_aN7aa9H5EeyPVOGx4eQ6lQ" name="Test cases" guid="_aN7aa9H5EeyPVOGx4eQ6lQ" briefDescription="Test cases based on defined requirements">
+            <methodElementProperty xmi:id="_aOzkLtH5EeyPVOGx4eQ6lQ" name="me_edited" value="true"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_mbIZcM-8EeylfrAata9AGw" name="Scenario description" guid="_mbIZcM-8EeylfrAata9AGw">
-            <methodElementProperty xmi:id="_W5eM8M-9EeylfrAata9AGw" name="me_edited" value="true"/>
-          </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Outcome" xmi:id="_oyYksM-8EeylfrAata9AGw" name="Test drive report" guid="_oyYksM-8EeylfrAata9AGw">
-            <methodElementProperty xmi:id="_W5YtYM-9EeylfrAata9AGw" name="me_edited" value="true"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_aN8BcdH5EeyPVOGx4eQ6lQ" name="Preliminary test results" guid="_aN8BcdH5EeyPVOGx4eQ6lQ">
+            <methodElementProperty xmi:id="_aOzkL9H5EeyPVOGx4eQ6lQ" name="me_edited" value="true"/>
           </contentElements>
         </childPackages>
-        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_LLy-gM-1EeylfrAata9AGw" name="Sensor test under different environmental conditions (e.g. cold, damp, light, visibility conditions)" guid="_LLy-gM-1EeylfrAata9AGw">
-          <methodElementProperty xmi:id="_LLy-gc-1EeylfrAata9AGw" name="pkg_loadCheck" value="true"/>
-          <methodElementProperty xmi:id="_P3pXsM-3EeylfrAata9AGw" name="me_edited" value="true"/>
-          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_1wgA8M-8EeylfrAata9AGw" name="Test Engineer" guid="_1wgA8M-8EeylfrAata9AGw" briefDescription="An engineer who performs testing operations">
-            <methodElementProperty xmi:id="_1zGB8M-8EeylfrAata9AGw" name="me_edited" value="true"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_aN8BdNH5EeyPVOGx4eQ6lQ" name="Sensor test under different environmental conditions (e.g. cold, damp, light, visibility conditions)" guid="_aN8BdNH5EeyPVOGx4eQ6lQ">
+          <methodElementProperty xmi:id="_aOzkMNH5EeyPVOGx4eQ6lQ" name="pkg_loadCheck" value="true"/>
+          <methodElementProperty xmi:id="_aOzkMdH5EeyPVOGx4eQ6lQ" name="me_edited" value="true"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_aN8Bd9H5EeyPVOGx4eQ6lQ" name="Test Engineer" guid="_aN8Bd9H5EeyPVOGx4eQ6lQ" briefDescription="An engineer who performs testing operations">
+            <methodElementProperty xmi:id="_aOzkMtH5EeyPVOGx4eQ6lQ" name="me_edited" value="true"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_3-neUM-8EeylfrAata9AGw" name="Component Owner" guid="_3-neUM-8EeylfrAata9AGw" briefDescription="Manages the work on the hardware component">
-            <methodElementProperty xmi:id="_4BMRMM-8EeylfrAata9AGw" name="me_edited" value="true"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_aN8BeNH5EeyPVOGx4eQ6lQ" name="Component Owner" guid="_aN8BeNH5EeyPVOGx4eQ6lQ" briefDescription="Manages the work on the hardware component">
+            <methodElementProperty xmi:id="_aOzkM9H5EeyPVOGx4eQ6lQ" name="me_edited" value="true"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_40CDYM-8EeylfrAata9AGw" name="Define from context environment conditions" guid="_40CDYM-8EeylfrAata9AGw" output="_Avxx8M-9EeylfrAata9AGw">
-            <methodElementProperty xmi:id="_W49PkM-9EeylfrAata9AGw" name="me_edited" value="true"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_aN8BddH5EeyPVOGx4eQ6lQ" name="Define from context environment conditions" guid="_aN8BddH5EeyPVOGx4eQ6lQ" output="_aN8BetH5EeyPVOGx4eQ6lQ">
+            <methodElementProperty xmi:id="_aOzkNNH5EeyPVOGx4eQ6lQ" name="me_edited" value="true"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_7ug3gM-8EeylfrAata9AGw" name="Environment sensor test" guid="_7ug3gM-8EeylfrAata9AGw" performedBy="_3-neUM-8EeylfrAata9AGw _1wgA8M-8EeylfrAata9AGw" mandatoryInput="_Avxx8M-9EeylfrAata9AGw" output="_-YRIAM-8EeylfrAata9AGw">
-            <methodElementProperty xmi:id="_W43I8M-9EeylfrAata9AGw" name="me_edited" value="true"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_aN8BdtH5EeyPVOGx4eQ6lQ" name="Environment sensor test" guid="_aN8BdtH5EeyPVOGx4eQ6lQ" performedBy="_aN8BeNH5EeyPVOGx4eQ6lQ _aN8Bd9H5EeyPVOGx4eQ6lQ" mandatoryInput="_aN8BetH5EeyPVOGx4eQ6lQ" output="_aN8BedH5EeyPVOGx4eQ6lQ">
+            <methodElementProperty xmi:id="_aOzkNdH5EeyPVOGx4eQ6lQ" name="me_edited" value="true"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Outcome" xmi:id="_-YRIAM-8EeylfrAata9AGw" name="Environment Test Report" guid="_-YRIAM-8EeylfrAata9AGw">
-            <methodElementProperty xmi:id="_W5Jc0M-9EeylfrAata9AGw" name="me_edited" value="true"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Outcome" xmi:id="_aN8BedH5EeyPVOGx4eQ6lQ" name="Environment Test Report" guid="_aN8BedH5EeyPVOGx4eQ6lQ">
+            <methodElementProperty xmi:id="_aOzkNtH5EeyPVOGx4eQ6lQ" name="me_edited" value="true"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_Avxx8M-9EeylfrAata9AGw" name="Context Definition" guid="_Avxx8M-9EeylfrAata9AGw">
-            <methodElementProperty xmi:id="_W5DWMM-9EeylfrAata9AGw" name="me_edited" value="true"/>
-          </contentElements>
-        </childPackages>
-        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_NeyU0M-1EeylfrAata9AGw" name="Verification of sensor ageing effects (e.g. accelerated life testing, etc.)" guid="_NeyU0M-1EeylfrAata9AGw">
-          <methodElementProperty xmi:id="_NeyU0c-1EeylfrAata9AGw" name="pkg_loadCheck" value="true"/>
-          <methodElementProperty xmi:id="_P3j4IM-3EeylfrAata9AGw" name="me_edited" value="true"/>
-          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_9H5UAM-2EeylfrAata9AGw" name="Component Owner" guid="_9H5UAM-2EeylfrAata9AGw" briefDescription="Manages the work on the hardware component">
-            <methodElementProperty xmi:id="_9KQrgM-2EeylfrAata9AGw" name="me_edited" value="true"/>
-          </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_BAFGgM-3EeylfrAata9AGw" name="Test Engineer" guid="_BAFGgM-3EeylfrAata9AGw" briefDescription="An engineer who performs testing operations">
-            <methodElementProperty xmi:id="_BCe6QM-3EeylfrAata9AGw" name="me_edited" value="true"/>
-          </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Outcome" xmi:id="_BnhhAM-3EeylfrAata9AGw" name="Ageing verification report" guid="_BnhhAM-3EeylfrAata9AGw">
-            <methodElementProperty xmi:id="_P3F-EM-3EeylfrAata9AGw" name="me_edited" value="true"/>
-          </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_G8NtwM-3EeylfrAata9AGw" name="Perform rapid ageing test" guid="_G8NtwM-3EeylfrAata9AGw" performedBy="_9H5UAM-2EeylfrAata9AGw _BAFGgM-3EeylfrAata9AGw" output="_BnhhAM-3EeylfrAata9AGw">
-            <methodElementProperty xmi:id="_P29bMM-3EeylfrAata9AGw" name="me_edited" value="true"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_aN8BetH5EeyPVOGx4eQ6lQ" name="Context Definition" guid="_aN8BetH5EeyPVOGx4eQ6lQ">
+            <methodElementProperty xmi:id="_aOzkN9H5EeyPVOGx4eQ6lQ" name="me_edited" value="true"/>
           </contentElements>
         </childPackages>
-        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_QEkEQM-1EeylfrAata9AGw" name="Verification of vehicle mounted sensing system characteristics" guid="_QEkEQM-1EeylfrAata9AGw" briefDescription="This includes the operation of the different sensors under different operating conditions (e.g. where one sensor&#xD;&#xA;technology is failing, such as fog affecting a camera)">
-          <methodElementProperty xmi:id="_QEkEQc-1EeylfrAata9AGw" name="pkg_loadCheck" value="true"/>
-          <methodElementProperty xmi:id="_P3dxgM-3EeylfrAata9AGw" name="me_edited" value="true"/>
-          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_tmCvsM-2EeylfrAata9AGw" name="Component Owner" guid="_tmCvsM-2EeylfrAata9AGw" briefDescription="Manages the work on the hardware component">
-            <methodElementProperty xmi:id="_toUnoM-2EeylfrAata9AGw" name="me_edited" value="true"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_aN8Be9H5EeyPVOGx4eQ6lQ" name="Vehicle level testing on selected SOTIF relevant use cases and scenarios" guid="_aN8Be9H5EeyPVOGx4eQ6lQ">
+          <methodElementProperty xmi:id="_aOzkONH5EeyPVOGx4eQ6lQ" name="pkg_loadCheck" value="true"/>
+          <methodElementProperty xmi:id="_aOzkOdH5EeyPVOGx4eQ6lQ" name="me_edited" value="true"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_aN8ogNH5EeyPVOGx4eQ6lQ" name="Test Driver" guid="_aN8ogNH5EeyPVOGx4eQ6lQ" briefDescription="Crazy stunt drivers that perform all kinds of dangerous maneauvers.">
+            <methodElementProperty xmi:id="_aOzkOtH5EeyPVOGx4eQ6lQ" name="me_edited" value="true"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_ukq7IM-2EeylfrAata9AGw" name="Perform verification" guid="_ukq7IM-2EeylfrAata9AGw" performedBy="_4S8AAMn_EeySK9XVvZr86w" output="_zyqC8M-2EeylfrAata9AGw">
-            <methodElementProperty xmi:id="_P3MEsM-3EeylfrAata9AGw" name="me_edited" value="true"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_aN8BftH5EeyPVOGx4eQ6lQ" name="Test Engineer" guid="_aN8BftH5EeyPVOGx4eQ6lQ" briefDescription="An engineer who performs testing operations">
+            <methodElementProperty xmi:id="_aOzkO9H5EeyPVOGx4eQ6lQ" name="me_edited" value="true"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Outcome" xmi:id="_zyqC8M-2EeylfrAata9AGw" name="Verification report of monuted sensing system" guid="_zyqC8M-2EeylfrAata9AGw">
-            <methodElementProperty xmi:id="_P3SLUM-3EeylfrAata9AGw" name="me_edited" value="true"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_aN8BfNH5EeyPVOGx4eQ6lQ" name="Test description" guid="_aN8BfNH5EeyPVOGx4eQ6lQ" performedBy="_aN8BftH5EeyPVOGx4eQ6lQ" output="_aN8BfdH5EeyPVOGx4eQ6lQ">
+            <methodElementProperty xmi:id="_aOzkPNH5EeyPVOGx4eQ6lQ" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_aN8ogdH5EeyPVOGx4eQ6lQ" name="Perform Test Drives" guid="_aN8ogdH5EeyPVOGx4eQ6lQ" performedBy="_aN8ogNH5EeyPVOGx4eQ6lQ" mandatoryInput="_aN8BfdH5EeyPVOGx4eQ6lQ" output="_aN8ogtH5EeyPVOGx4eQ6lQ">
+            <methodElementProperty xmi:id="_aOzkPdH5EeyPVOGx4eQ6lQ" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_aN8BfdH5EeyPVOGx4eQ6lQ" name="Scenario description" guid="_aN8BfdH5EeyPVOGx4eQ6lQ">
+            <methodElementProperty xmi:id="_aOzkPtH5EeyPVOGx4eQ6lQ" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Outcome" xmi:id="_aN8ogtH5EeyPVOGx4eQ6lQ" name="Test drive report" guid="_aN8ogtH5EeyPVOGx4eQ6lQ">
+            <methodElementProperty xmi:id="_aOzkP9H5EeyPVOGx4eQ6lQ" name="me_edited" value="true"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_aN8og9H5EeyPVOGx4eQ6lQ" name="Verification of sensor ageing effects (e.g. accelerated life testing, etc.)" guid="_aN8og9H5EeyPVOGx4eQ6lQ">
+          <methodElementProperty xmi:id="_aOzkQNH5EeyPVOGx4eQ6lQ" name="pkg_loadCheck" value="true"/>
+          <methodElementProperty xmi:id="_aOzkQdH5EeyPVOGx4eQ6lQ" name="me_edited" value="true"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_aN8oh9H5EeyPVOGx4eQ6lQ" name="Component Owner" guid="_aN8oh9H5EeyPVOGx4eQ6lQ" briefDescription="Manages the work on the hardware component">
+            <methodElementProperty xmi:id="_aOzkQtH5EeyPVOGx4eQ6lQ" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_aN8ohdH5EeyPVOGx4eQ6lQ" name="Test Engineer" guid="_aN8ohdH5EeyPVOGx4eQ6lQ" briefDescription="An engineer who performs testing operations">
+            <methodElementProperty xmi:id="_aOzkQ9H5EeyPVOGx4eQ6lQ" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Outcome" xmi:id="_aN8ohtH5EeyPVOGx4eQ6lQ" name="Ageing verification report" guid="_aN8ohtH5EeyPVOGx4eQ6lQ">
+            <methodElementProperty xmi:id="_aOzkRNH5EeyPVOGx4eQ6lQ" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_aN8ohNH5EeyPVOGx4eQ6lQ" name="Perform rapid ageing test" guid="_aN8ohNH5EeyPVOGx4eQ6lQ" performedBy="_aN8oh9H5EeyPVOGx4eQ6lQ _aN8ohdH5EeyPVOGx4eQ6lQ" output="_aN8ohtH5EeyPVOGx4eQ6lQ">
+            <methodElementProperty xmi:id="_aOzkRdH5EeyPVOGx4eQ6lQ" name="me_edited" value="true"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_aN8oiNH5EeyPVOGx4eQ6lQ" name="Verification of standalone sensor characteristics" guid="_aN8oiNH5EeyPVOGx4eQ6lQ" briefDescription="Verification of standalone sensor characteristics (e.g. range, precision, resolution, timing constraints, bandwidth, signal-to-noise ratio)">
+          <methodElementProperty xmi:id="_aOzkRtH5EeyPVOGx4eQ6lQ" name="pkg_loadCheck" value="true"/>
+          <methodElementProperty xmi:id="_aOzkR9H5EeyPVOGx4eQ6lQ" name="me_edited" value="true"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_aN8ojNH5EeyPVOGx4eQ6lQ" name="Product Owner" guid="_aN8ojNH5EeyPVOGx4eQ6lQ" briefDescription="Fancy word for requirement engineer"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_aN8oitH5EeyPVOGx4eQ6lQ" name="Check characteristics of hardware component" guid="_aN8oitH5EeyPVOGx4eQ6lQ" performedBy="_aN8oi9H5EeyPVOGx4eQ6lQ _aN8ojNH5EeyPVOGx4eQ6lQ" output="_aN8oidH5EeyPVOGx4eQ6lQ">
+            <methodElementProperty xmi:id="_aOzkSNH5EeyPVOGx4eQ6lQ" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_aN8oi9H5EeyPVOGx4eQ6lQ" name="Component Owner" guid="_aN8oi9H5EeyPVOGx4eQ6lQ" briefDescription="Manages the work on the hardware component">
+            <methodElementProperty xmi:id="_aO0LMNH5EeyPVOGx4eQ6lQ" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Outcome" xmi:id="_aN8oidH5EeyPVOGx4eQ6lQ" name="Hardware verification report" guid="_aN8oidH5EeyPVOGx4eQ6lQ">
+            <methodElementProperty xmi:id="_aO0LMdH5EeyPVOGx4eQ6lQ" name="me_edited" value="true"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_aN8ojdH5EeyPVOGx4eQ6lQ" name="Verification of vehicle mounted sensing system characteristics" guid="_aN8ojdH5EeyPVOGx4eQ6lQ" briefDescription="This includes the operation of the different sensors under different operating conditions (e.g. where one sensor&#xD;&#xA;technology is failing, such as fog affecting a camera)">
+          <methodElementProperty xmi:id="_aO0LMtH5EeyPVOGx4eQ6lQ" name="pkg_loadCheck" value="true"/>
+          <methodElementProperty xmi:id="_aO0LM9H5EeyPVOGx4eQ6lQ" name="me_edited" value="true"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_aN8okNH5EeyPVOGx4eQ6lQ" name="Component Owner" guid="_aN8okNH5EeyPVOGx4eQ6lQ" briefDescription="Manages the work on the hardware component">
+            <methodElementProperty xmi:id="_aO0LNNH5EeyPVOGx4eQ6lQ" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_aN8ojtH5EeyPVOGx4eQ6lQ" name="Perform verification" guid="_aN8ojtH5EeyPVOGx4eQ6lQ" performedBy="_aN8oi9H5EeyPVOGx4eQ6lQ" output="_aN8oj9H5EeyPVOGx4eQ6lQ">
+            <methodElementProperty xmi:id="_aO0LNdH5EeyPVOGx4eQ6lQ" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Outcome" xmi:id="_aN8oj9H5EeyPVOGx4eQ6lQ" name="Verification report of monuted sensing system" guid="_aN8oj9H5EeyPVOGx4eQ6lQ">
+            <methodElementProperty xmi:id="_aO0LNtH5EeyPVOGx4eQ6lQ" name="me_edited" value="true"/>
           </contentElements>
         </childPackages>
       </childPackages>
@@ -184,5 +185,6 @@
     </methodPackages>
     <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_0EWxocn9EeySK9XVvZr86w" name="DeliveryProcesses" guid="_0EWxocn9EeySK9XVvZr86w"/>
     <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_0EWxosn9EeySK9XVvZr86w" name="ProcessContributions" guid="_0EWxosn9EeySK9XVvZr86w"/>
+    <bases href="uma://_sQO-sNH4EeyPVOGx4eQ6lQ#_sQO-sNH4EeyPVOGx4eQ6lQ"/>
   </org.eclipse.epf.uma:MethodPlugin>
 </xmi:XMI>

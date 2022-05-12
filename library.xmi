@@ -2,11 +2,17 @@
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
   <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_utHywMnzEey7BO1WfeOgzA" guid="_utHywMnzEey7BO1WfeOgzA">
     <subManagers xmi:id="_0EZN4Mn9EeySK9XVvZr86w" href="uma://_0EWKkMn9EeySK9XVvZr86w#_0EZN4Mn9EeySK9XVvZr86w"/>
+    <subManagers xmi:id="_sQdBINH4EeyPVOGx4eQ6lQ" href="uma://_sQO-sNH4EeyPVOGx4eQ6lQ#_sQdBINH4EeyPVOGx4eQ6lQ"/>
+    <subManagers xmi:id="_hlVs0NH5EeyPVOGx4eQ6lQ" href="uma://_hlQ0UNH5EeyPVOGx4eQ6lQ#_hlVs0NH5EeyPVOGx4eQ6lQ"/>
     <resourceDescriptors xmi:id="_utHywcnzEey7BO1WfeOgzA" id="_utHLsMnzEey7BO1WfeOgzA" uri=""/>
     <resourceDescriptors xmi:id="_0EZN4cn9EeySK9XVvZr86w" id="_0EWKkMn9EeySK9XVvZr86w" uri="Sensor%20verification/plugin.xmi"/>
+    <resourceDescriptors xmi:id="_sQdBIdH4EeyPVOGx4eQ6lQ" id="_sQO-sNH4EeyPVOGx4eQ6lQ" uri="Verification%20methods/plugin.xmi"/>
+    <resourceDescriptors xmi:id="_hlVs0dH5EeyPVOGx4eQ6lQ" id="_hlQ0UNH5EeyPVOGx4eQ6lQ" uri="Decision%20Algorithm%20verification/plugin.xmi"/>
   </org.eclipse.epf.uma.resourcemanager:ResourceManager>
   <org.eclipse.epf.uma:MethodLibrary xmi:id="_utHLsMnzEey7BO1WfeOgzA" name="Library1" guid="_utHLsMnzEey7BO1WfeOgzA" briefDescription="Verification of SOTIF (Clause 10) Area 2">
     <methodElementProperty xmi:id="_utsagMnzEey7BO1WfeOgzA" name="library_synFree" value="true"/>
     <methodPlugins xmi:id="_0EWKkMn9EeySK9XVvZr86w" href="uma://_0EWKkMn9EeySK9XVvZr86w#_0EWKkMn9EeySK9XVvZr86w"/>
+    <methodPlugins xmi:id="_sQO-sNH4EeyPVOGx4eQ6lQ" href="uma://_sQO-sNH4EeyPVOGx4eQ6lQ#_sQO-sNH4EeyPVOGx4eQ6lQ"/>
+    <methodPlugins xmi:id="_hlQ0UNH5EeyPVOGx4eQ6lQ" href="uma://_hlQ0UNH5EeyPVOGx4eQ6lQ#_hlQ0UNH5EeyPVOGx4eQ6lQ"/>
   </org.eclipse.epf.uma:MethodLibrary>
 </xmi:XMI>
