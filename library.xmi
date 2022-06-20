@@ -6,7 +6,7 @@
     <subManagers xmi:id="_hlVs0NH5EeyPVOGx4eQ6lQ" href="uma://_hlQ0UNH5EeyPVOGx4eQ6lQ#_hlVs0NH5EeyPVOGx4eQ6lQ"/>
     <resourceDescriptors xmi:id="_utHywcnzEey7BO1WfeOgzA" id="_utHLsMnzEey7BO1WfeOgzA" uri=""/>
     <resourceDescriptors xmi:id="_0EZN4cn9EeySK9XVvZr86w" id="_0EWKkMn9EeySK9XVvZr86w" uri="Sensor%20verification/plugin.xmi"/>
-    <resourceDescriptors xmi:id="_sQdBIdH4EeyPVOGx4eQ6lQ" id="_sQO-sNH4EeyPVOGx4eQ6lQ" uri="Verification%20methods/plugin.xmi"/>
+    <resourceDescriptors xmi:id="_sQdBIdH4EeyPVOGx4eQ6lQ" id="_sQO-sNH4EeyPVOGx4eQ6lQ" uri="SOTIF%20Verification%20methods/plugin.xmi"/>
     <resourceDescriptors xmi:id="_hlVs0dH5EeyPVOGx4eQ6lQ" id="_hlQ0UNH5EeyPVOGx4eQ6lQ" uri="Decision%20Algorithm%20verification/plugin.xmi"/>
   </org.eclipse.epf.uma.resourcemanager:ResourceManager>
   <org.eclipse.epf.uma:MethodLibrary xmi:id="_utHLsMnzEey7BO1WfeOgzA" name="Library1" guid="_utHLsMnzEey7BO1WfeOgzA" briefDescription="Verification of SOTIF (Clause 10) Area 2">

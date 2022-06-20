@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
   <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_sQdBINH4EeyPVOGx4eQ6lQ" guid="_sQdBINH4EeyPVOGx4eQ6lQ"/>
-  <org.eclipse.epf.uma:MethodPlugin xmi:id="_sQO-sNH4EeyPVOGx4eQ6lQ" name="Verification methods" guid="_sQO-sNH4EeyPVOGx4eQ6lQ" briefDescription="Verification strategies for decision algorithms" authors="Hans-Martin Heyn&#xD;&#xA;">
+  <org.eclipse.epf.uma:MethodPlugin xmi:id="_sQO-sNH4EeyPVOGx4eQ6lQ" name="SOTIF Verification methods" guid="_sQO-sNH4EeyPVOGx4eQ6lQ" briefDescription="Verification strategies for decision algorithms" authors="Hans-Martin Heyn&#xD;&#xA;">
     <methodElementProperty xmi:id="_sQdoMNH4EeyPVOGx4eQ6lQ" name="plugin_synFree" value="true"/>
     <methodPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_sQO-sdH4EeyPVOGx4eQ6lQ" name="Content" guid="_sQO-sdH4EeyPVOGx4eQ6lQ">
       <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_sQO-stH4EeyPVOGx4eQ6lQ" name="Categories" guid="_sQO-stH4EeyPVOGx4eQ6lQ">
